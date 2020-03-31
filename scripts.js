@@ -1,3 +1,4 @@
+window.onload=function(){
 var url = "https://api.kanye.rest/?format=text";
 var xhrbtn = document.querySelector("#xhr");
 var fetchbtn = document.querySelector("#fetch");
@@ -44,3 +45,4 @@ axiosbtn.addEventListener("click", function () {
       alert("ERROR!");
     });
 });
+}
